@@ -99,6 +99,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   max-width: 428px;
+  max-height: 432px;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -330,8 +331,15 @@ img {
   row-gap: 72px;
   justify-content: center;
   padding-bottom: 96px;
-  width: 396px;
+  max-width: 396px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 428px) {
+  .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }
 
 .customers-icon-list {
@@ -545,6 +553,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 500;
     top: 0;
     left: 0;
     width: 100%;
@@ -552,6 +561,7 @@ img {
     padding-top: 80px;
     padding-bottom: 40px;
     padding-left: 40px;
+    padding-right: 16px;
 
     opacity: 0;
     visibility: hidden;
