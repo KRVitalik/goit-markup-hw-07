@@ -599,6 +599,10 @@ img {
     color: var(--pressed-state-color);
   }
 
+  .mobile-menu-text-active {
+    color: var(--pressed-state-color);
+  }
+
   .mobile-menu-info {
     display: flex;
     flex-direction: column;
